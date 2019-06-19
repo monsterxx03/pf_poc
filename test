@@ -1,0 +1,3 @@
+table <test> {  9.9.9.9 }
+rdr pass log on lo0 inet proto tcp from en0 to <test> port 1234 -> 127.0.0.1 port 8877
+pass out on en0 route-to lo0 inet proto tcp from en0 to <test> port 1234
