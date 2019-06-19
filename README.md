@@ -8,7 +8,7 @@ apply pf rules:
 
     sudo pfctl -f test
 
-This test rule will redirect all tcp traffic to 9.9.9.9:1234 to 127.0.0.1:8877, which our demo proxy server is listening.
+This test rule will redirect all outgoing tcp traffic originated 9.9.9.9:1234 to 127.0.0.1:8877, which our demo proxy server is listening.
 
 Start server, will listen on 127.0.0.1:8877:
 
