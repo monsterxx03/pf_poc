@@ -1,4 +1,3 @@
-// https://gist.github.com/gkoyuncu/f8aad43f66815dac7769
 package main
 
 import (
